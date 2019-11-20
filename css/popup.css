@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#rclist, .wlist {
+	padding-left: 0;
+}
+
+#rclist > li, .rc, .wlist {
+	border-radius: 5px;
+}
+
+li.expanded {
+	background: #E6E6E6;
+}
+
+.rc {
+	box-sizing: border-box;
+	width: 420px;
+	padding: 2px 0;
+	border: none;
+	cursor: pointer;
+	list-style: none;
+}
+
+.active {
+	background: #99ccee;
+	border: 1px #11a5d9;
+}
+
+.title, .url, .expand, .favicon {
+	display: inline-block;
+	padding: 0 5px;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.favicon {
+	width: 23px;
+	height: 13px;
+}
+
+.title {
+	width: 200px;
+}
+
+.rc-w>.title {
+	width: auto;
+	max-width: 200px;
+}
+
+.url {
+	width: 195px;
+}
+
+.expand {
+	width: 338px;
+	cursor: cell;
+}
+
+.url {
+	color: #aaa;
+}
+
+.pressed {
+	background: #5094c2;
+	border: 1px #0079a4;
+}
+
+.pressed .title, .pressed .expand {
+	color: #fff;
+}
+
+img[src=""] {
+  visibility: hidden;
+}
