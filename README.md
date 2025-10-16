@@ -6,6 +6,8 @@ Download: https://chrome.google.com/webstore/detail/tab-restore/dbndgjfafojhfndf
 
 Welcome to Tab Restore. With the help by `chrome.sessions` API released in Chrome 37, Tab Restore can restore the tabs you closed, not only reopen a page with the same URL, but also with the full navigation histories, and even the tabs you closed in the last time you using Chrome.
 
+(2025.1016) **Thanks to @BoB3R for helping update the project for Manifest V3 compatibility!**
+
 ## Tips ##
 
 1. When you just open Chrome, the tab restore lists may be empty. You need to press Ctrl+Shift+T to restore some closed sessions, and then the last time Chrome closed sessions will be activated. (For Windows users. Chrome for OS X seems OK)
