@@ -3,7 +3,7 @@
 
   "name": "Tab Restore",
   "description": "Tab Restore helps to restore recently closed tabs and window sessions.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "action": {
     "default_icon": {
       "19": "img/19.png",
@@ -25,3 +25,4 @@
   ],
   "options_page": "options.html"
 }
+
